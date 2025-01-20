@@ -1,0 +1,43 @@
+body{
+    font-family: "Raleway", sans-serif;
+    color: #960334;
+    background-color: #960334;
+    text-transform: uppercase;
+}
+
+#local{
+    width: 100%;
+    background-color: #0394fc;
+    padding: 15px 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+    color: #960334;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#cities{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#cities td{
+    border: 1px solid #4b4c4d;
+    padding: 8px;
+}
+
+#cities tr:nth-child(even){
+    background-color: #08c4c4;
+}
+
+#cities tr:nth-child(odd){
+    background-color: #0394fc;
+}
+.col1{
+    width: 10%;
+}
+
+.col2{
+    width: 45%;
+}
